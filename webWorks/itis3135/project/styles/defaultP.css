@@ -1,0 +1,236 @@
+`/*CSS for project page, Iyan Gill */
+
+header, footer
+{
+	margin-top: 25px;
+	margin-bottom: 25px;
+	text-align: center;
+}
+/*set effect for nav bar clicks */
+a:link{
+        color: orange;
+		text-decoration: none;
+      }
+		
+a:visited{
+          color:purple;
+         }
+		 
+		 /*custom nav bar, slim, centered */
+.navButton
+{
+	text-align: center;
+	background-color: #e6e6e6;
+	padding: 15px;
+	border-radius: 10px;
+	max-width:50%;
+    padding-left: 0px;
+    padding-right: 0px;
+	border-style: double;
+	border-radius: 4px;
+	border-width: medium;
+	border-color: #8080ff;
+	margin: auto;
+}
+.navButton a {
+  padding: 5px;
+  text-align: center;
+  outline: none;
+  color: #fff;
+  background-color: #8080ff;
+  border: none;
+  border-radius: 8px;
+  box-shadow: 0 5px #bfbfbf;
+}
+/*While hovering, button turns this color */
+.navButton a:hover {
+	background-color: #ccccff;
+	}
+/*While clicking, button turns this color */
+.navButton a:active {
+  background-color: #f2f2f2;
+  box-shadow: 0 5px #687;
+  transform: translateY(4px);
+}
+
+/*changed background color */
+body
+{
+	background-color: #ffcc99;
+	margin-left: 80px;
+	margin-right: 85px;
+	font-size: 21px;
+    position: relative;
+	
+}
+/*set attributes for body text, paragraphs and h2 */
+p, body, h2
+{
+	font-family: Palatino, URW Palladio L, serif;
+	font-size: 20px;
+	color: #8080ff;
+}
+/*set attributes for text */
+  h1, h2, h3
+{
+	font-family: Palatino, URW Palladio L, serif;
+	text-align: center;
+	color: #8080ff;
+}
+  
+  h1 
+  {
+	  margin-top: 0px;
+  }              
+  
+  h3
+  {
+	  text-align: center;
+	    margin-top: 10px;
+  }
+
+main
+{
+	margin-left: 100px;
+	margin-right: 100px;
+}
+/*Only for welcome on index page, different border radius */
+.welcome-div 
+{
+   	background-color: #e6e6e6;
+	color: #8080ff;
+	margin-left: 80px;
+	margin-right: 100px;
+	margin-top: 50px;
+	margin-bottom: 35px;
+	border-style: solid;
+	border-radius: 10px;
+	border-width: medium;
+	border-color: #8080ff;
+	padding: 8px;
+}
+
+/*set the setup for home blocks, centered and colors */
+.cube {
+	background-color: #e6e6e6;
+	color: #8080ff;
+	border-style: solid;
+	border-radius: 20px;
+	border-width: medium;
+	border-color: #8080ff;
+	height: 275px;
+	width: 250px;
+	display: block;
+	padding: 8px;
+	margin-top: 15px;
+	margin-bottom: 25px;
+	position: relative;
+	overflow: auto;
+}
+/*set attributes for explantion of page block on each page */
+.explanation-div{
+	background-color: #e6e6e6;
+	color: #cccccc;
+	margin-left: 80px;
+	margin-right: 100px;
+	margin-top: 50px;
+	margin-bottom: 35px;
+	border-style: solid;
+	border-radius: 20px;
+	border-width: medium;
+	border-color: #8080ff;
+	padding: 8px;
+  }
+  /*set attributes for background of slideshow on each page */
+  .images-div{
+	background-color: #e6e6e6;
+	color: #8080ff;
+	margin-top:20px;
+	margin-left: 80px;
+	margin-right: 95px;
+	border-style: solid;
+	border-radius: 4px;
+	border-width: medium;
+	border-color: #8080ff;
+	height: 260px;
+	width: 988px;
+	position: absolute;
+	right: 0;
+  }
+  
+  img
+  {
+	 object-fit: contain;
+  }
+  /*styling and positioning foy payment fill-out section */
+  .payment {
+	background-color: #e6e6e6;
+	color: #8080ff;
+	align-items: center;
+	font-weight: 500;
+	font-size: 100%;
+	padding: 20px;
+	border-radius: 10px;
+	display: block;
+	display: flex;
+	text-align: center;
+	margin: auto;
+	flex-direction: column;
+	justify-content: center;
+	border-style: solid;
+	border-radius: 20px;
+	border-width: medium;
+	border-color: #8080ff;
+	max-width: 25%;
+}
+/*styling and positioning for button */
+
+/*allows the section elements to be side by side*/
+#wrapper {
+  display: flex;
+}
+
+#left {
+  flex: 0 0 65%;
+  margin-right: 20px;
+}
+
+#right {
+  flex: 1;
+   margin-right: 20px;
+}
+/*allows the section elements to be side by side, different sections*/
+#wrapper2 {
+  display: flex;
+}
+
+#left2 {
+  flex: 0 0 65%;
+  margin-right: 20px;
+}
+
+#right2 {
+  flex: 1;
+   margin-right: 20px;
+}
+
+img
+{
+	background-color: #e6e6e6;
+}
+
+.navBottom
+{
+	text-align: center;
+	background-color: #e6e6e6;
+	padding: 15px;
+	border-radius: 10px;
+	max-width:50%;
+    padding-left: 0px;
+    padding-right: 0px;
+	border-style: double;
+	border-radius: 4px;
+	border-width: medium;
+	border-color: #8080ff;
+	margin: auto;
+}

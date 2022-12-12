@@ -1,0 +1,231 @@
+
+body
+{
+	font-family: Palatino, URW Palladio L, serif;
+	color: #70B4E1;
+	background-color:  #4d4d4d;
+	margin-left: 80px;
+	margin-right: 85px;
+	font-size: 21px;
+}
+
+header, footer
+{
+	margin-top: 50px;
+	margin-bottom: 50px;
+	text-align: center;
+}
+
+main
+{
+	margin-left: 100px;
+	margin-right: 100px;
+}
+
+h1, h2, h3
+{
+	font-family: Palatino, URW Palladio L, serif;
+	text-align: center;
+	line-height: 0px;
+}
+h2
+{
+	margin-bottom: 25px;
+}
+
+h3
+{
+	text-align: left;
+}
+a
+{
+	
+	color: #1892E3;
+	font-weight: bold;
+}
+
+a:hover
+{
+	text-decoration: overline;
+	color: #1892E3;
+}
+
+figure
+{
+	text-align: center;
+}
+
+figcaption
+{
+	font-style: normal;
+}
+
+img {
+	border-radius: 10px;
+	border: 7px;
+}
+nav
+{
+	text-align: center;
+}
+
+.text{
+	text-align: center;
+	font-size: 125%;
+}	
+
+table
+{
+	border-collapse: collapse;
+	color: lightgray;
+	margin: 18px;
+}
+
+thead
+{
+	background-color: darkgray;
+}
+
+th, td
+{
+	border: 1px solid black;
+	padding: .2em 1em .2em .5em;
+	text-align: left;
+	vertical-align: middle;
+	background-color: blue;
+}
+
+tbody tr:nth-child(odd) td
+{
+	background-color: royalblue;
+}
+
+tbody tr:nth-child(even) td
+{
+	background-color: steelblue;
+}
+
+
+/*styling for the title of the table*/
+th {
+    font-weight: bold;
+    text-align: left;
+}
+
+/*styling for the coffee types*/
+.label {
+    font-weight: bold;
+}
+
+/*styling for the tables*/
+.altrow {
+	background-color: #E0E0E0;
+}
+
+/*styling for the Google Map link*/
+#locationlink {
+	color: #380000;
+	font-style:italic;
+}
+
+.box {
+	background-color: #70B4E1;
+	color: #0f0a0a;
+    align-items: center;
+	font-weight: 500;
+	font-size: 85%;
+	padding: 12px;
+	display: block;
+	text-align: center;
+	margin-bottom: 15px;
+	margin-top: 15px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	border-style: double;
+	border-radius: 4px;
+	border-width: medium;
+	border-color: #8080ff;
+	height: auto;
+	width: auto;
+}
+
+.box-display {
+	padding-top: 14px;
+}
+
+input[type=text], input[type=email], input[type=tel], select {
+	width: 100%;
+	margin: 2px -13px;
+	padding: 10px 8px;
+}
+
+input[type=submit]{
+	width: 80%;
+	background-color: dimgray;
+	color: #cfd6ea;
+	border: none;
+	border-radius: 5px;
+	padding: 6px;
+}
+
+.calculator {
+	border-radius: 12px;
+	
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 2em;
+	max-width: 15em;
+	overflow: hidden;
+	 border-style: solid;
+  border-color: #92a8d1;
+  }
+  
+  .calculator__display {
+	background-color: #ffdd99;
+	
+	font-size: 1.714285714em;
+	padding: 0.5em 0.75em;
+	text-align: right;
+  }
+  
+  .calculator__keys {
+	
+	display: grid;
+	grid-gap: 0px;
+	grid-template-columns: repeat(4,1fr);
+  }
+  
+  .calculator__keys > * {
+	
+	padding: 0.5em 1.25em;
+	position: relative;
+	text-align: center;
+  }
+  
+  .calculator__keys > *:active::before,
+  .calculator__keys > .is-depressed::before {
+	background-color: #ffff80;
+	bottom: 0;
+	box-shadow: 0 0 6px 0 rgba(211, 34, 211, 0.5) inset;
+	content: "";
+	left: 0;
+	opacity: 0.3;
+	position: absolute;
+	right: 0;
+	top: 0;
+	z-index: 1;
+  }
+  
+  [data-type ='operator'] {
+	background-color: #ffff80;
+  }
+  
+  .equal {
+	background-color: #ffff80;
+	grid-column: -2;
+	grid-row: 2 / span 4;
+  }
+  [data-state="selected"]{
+	  background-color: rgb(74, 5, 92);
+  }
